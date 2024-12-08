@@ -58,3 +58,47 @@ At the moment, better host only runs in Lobby and Practice session, however this
 You can also type cmd in the ingame chat to get a list of commands you can use to show stats.
 
 If you wish to tweak some of the default settings, please modify the newly created "better_host_config.json" file that is located on the server iunder the lua_config folder.
+
+# Config
+
+```
+// Built in High Ping kicker enabled - Default is false
+	// Only enable if ams2_bot is not installed/active
+	"hp_active" : false,
+	// Define the acceptable ms ping the member can have. Default 500
+	"ping_limit_ms" : 500,
+	// Grab the members ping every x seconds . Default 15 (4 times per minute)
+	"grab_seconds" : 15,
+	// How many warnings before kicking. Default 3
+	"warnings" : 3,
+	// Better Host system
+	"bh_active": true,
+	// Send Chat message to all members when joining showing BHB is running on server.
+	"bh_announce_when_joining" : true,
+	// Better host by default will run in Lobby. Enabling the below will extended better host to continue running into the Practice session if setup.
+	"bh_enable_in_practice" : true,
+	// Adds a buffer to the best avg_ping to avoid smaller variances in determining better host.
+	// eg: If the current host has a ping of 65ms, in order for that to change to another member, they would have to be less than (65 -30) 35ms.
+	// The lower the number the better the host is however it may swap more hosts if pings are close.
+	 // default is 75
+	"bh_ms_range" : 75,
+	// This number is used to determine if that members ping should be included in finding better host.
+	// The greater this number the longer it will take to determine better host. The lower the number might switch between better host quicker, especially when new members join.
+	// ie if ping_count = 2 and ping_scan_secs = 15, it will take a minimum of 30 secs to find better host.
+	"bh_ping_count_start" : 2,
+	// Frequency in seconds in scan/update ping data. Default : 10
+	"bh_ping_scan_secs" : 5, 
+	// How many warnings before auto kicked. Default : 10
+	"bh_rejoin_warnings" : 3,
+	// Frequency in seconds to remind member to rejoin. Default : 30
+	"bh_rejoin_reminder" : 3,
+	// Frequency in seconds to scan/update better host. Default : 15
+	"bh_scan_secs" : 10,
+	// Announce to all when better host is actual host.
+	"bh_is_host" :  true,
+	// Store member data in local file storage = true, in memory = false. Default: true
+	"addon_data_store_members" : true,
+	// A list of better host admins who will have some additional commands available via in-game chat. start, stop, ebh (enforce better host - kick members between current host and better host.)
+	"ingame_admins_steamids" : "",
+
+```
