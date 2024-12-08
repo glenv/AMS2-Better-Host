@@ -16,7 +16,7 @@ config : {
 	"bh_active": true,
 	// Send Chat message to all members when joining showing BHB is running on server.
 	"bh_announce_when_joining" : true,
-	// Better host by default will run in Lobby. Enabling the below will extended better host to continue running into the Practice session if setup.
+	// Better host by default will run in Lobby. Enabling the below will extend better host to continue running into the Practice session if setup.
 	"bh_enable_in_practice" : true,
 	// Adds a buffer to the best avg_ping to avoid smaller variances in determining better host.
 	// eg: If the current host has a ping of 65ms, in order for that to change to another member, they would have to be less than (65 -30) 35ms.
@@ -28,13 +28,13 @@ config : {
 	// ie if ping_count = 2 and ping_scan_secs = 15, it will take a minimum of 30 secs to find better host.
 	"bh_ping_count_start" : 2,
 	// Frequency in seconds in scan/update ping data. Default : 10
-	"bh_ping_scan_secs" : 5, 
-	// How many warnings before auto kicked. Default : 10
+	"bh_ping_scan_secs" : 10, 
+	// How many warnings before auto kicked. Default : 3
 	"bh_rejoin_warnings" : 3,
 	// Frequency in seconds to remind member to rejoin. Default : 30
-	"bh_rejoin_reminder" : 3,
+	"bh_rejoin_reminder" : 30,
 	// Frequency in seconds to scan/update better host. Default : 15
-	"bh_scan_secs" : 10,
+	"bh_scan_secs" : 15,
 	// Announce to all when better host is actual host.
 	"bh_is_host" :  true,
 	// Store member data in local file storage = true, in memory = false. Default: true
