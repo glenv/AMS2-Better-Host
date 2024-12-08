@@ -75,7 +75,7 @@ If you wish to tweak some of the default settings, please modify the newly creat
 	"bh_active": true,
 	// Send Chat message to all members when joining showing BHB is running on server.
 	"bh_announce_when_joining" : true,
-	// Better host by default will run in Lobby. Enabling the below will extended better host to continue running into the Practice session if setup.
+	// Better host by default will run in Lobby. Enabling the below will extend better host to continue running into the Practice session if setup.
 	"bh_enable_in_practice" : true,
 	// Adds a buffer to the best avg_ping to avoid smaller variances in determining better host.
 	// eg: If the current host has a ping of 65ms, in order for that to change to another member, they would have to be less than (65 -30) 35ms.
