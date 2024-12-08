@@ -59,7 +59,7 @@ You can also type cmd in the ingame chat to get a list of commands you can use t
 
 If you wish to tweak some of the default settings, please modify the newly created "better_host_config.json" file that is located on the server iunder the lua_config folder.
 
-# Config
+# Default Config
 
 ```
 // Built in High Ping kicker enabled - Default is false
