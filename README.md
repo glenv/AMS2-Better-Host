@@ -14,7 +14,7 @@ How does a better host become host?
   In order for the better host to become host, everyone between the current host and the better host needs to be kicked from the server. The affceted players will be notified via in game chat to leave and rejoin server however there is a default limit of 3 reminders whith reminders sent to player in game chat every 10 secs, if they don't leave they will be kicked.
   
   
-  PS: The list/index of players is based on jointime to the server, so you might be determined to be the better host but 10 other players had joined server before you, this 10 players will receive message and be forcefully removed.
+ PS: The list/index of players is based on jointime to the server, so you might be determined to be the better host but 10 other players had joined server before you, these 10 players will receive message to rejoin server and if ignored will forcefully be removed.
 
 
 At the moment, better host only runs in Lobby and Practice session, however this might be axtended optionally in future releases.
