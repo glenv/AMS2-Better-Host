@@ -2,7 +2,7 @@
 
 A lua Addon Script for AMS2 Dedciated Server to help reduce lag between players when host has poor ping to dedciated server. The Host is the first person to join the server.
 
-# How does it choose better host:
+# How does it choose better host.
 
   The default is better host will capture all players pings every 15 seconds, then takes the avg of these pings and compares it to other players. 
   If the host has the lowest ping, there is no better host however if a player has a lower ping value, they should be a better host. 
