@@ -57,7 +57,7 @@ At the moment, better host only runs in Lobby and Practice sessions, however thi
 
 You can also type cmd in the ingame chat to get a list of commands you can use to show stats.
 
-If you wish to tweak some of the default settings, please modify the newly created "better_host_config.json" file that is located on the server iunder the lua_config folder.
+If you wish to tweak some of the default settings, please modify the newly created "better_host_config.json" file that is located on the server under the lua_config folder.
 
 # Default Config
 
