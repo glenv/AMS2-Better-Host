@@ -22,7 +22,7 @@ At the moment, better host only runs in Lobby and Practice sessions, however thi
 
 # How to install:
 
-1. Download latest release.
+1. [Download](https://github.com/glenv/AMS2-Better-Host/releases) latest release.
 2. Unzip folder locally
 3. Rename folder to "better_host"
 4. Upload to AMS2 Dedicated Server folder /lua
